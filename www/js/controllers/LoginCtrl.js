@@ -73,7 +73,7 @@ var getFacebookProfileInfo = function(authResponse){
 
 //This method is executed when the user press the "Login with facebook" button
 $scope.facebookSignIn = function() {
-     facebookConnectPlugin.getLoginStatus(function(success)
+/*     facebookConnectPlugin.getLoginStatus(function(success)
      {
          if(success.status === 'connected')
          {
@@ -101,7 +101,8 @@ $scope.facebookSignIn = function() {
 
       });
     };
-
+*/
+window.location.href="templates/chating.html";
 
     
 })
