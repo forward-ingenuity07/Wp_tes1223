@@ -11,7 +11,7 @@ app.controller('IntroCtrl', function($scope, $state,$ionicPlatform,$cordovaSQLit
       $scope.startApp = function() {
             
             //$state.go('login');
-			window.location.href='../templates/chating.html';
+			window.location.href = 'templates/chating.html';
       };
       // Called each time the slide changes
       $scope.slideChanged = function(index) {
