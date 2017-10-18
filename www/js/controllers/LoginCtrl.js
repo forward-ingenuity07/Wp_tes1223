@@ -93,7 +93,7 @@ $scope.facebookSignIn = function() {
          {
              $ionicLoading.show({
                 template: 'Logging in...'
-				window.location.href='chating.html';
+
              });
              ///  , 'public_profile','user_likes','user_about_me','user_birthday','user_friends','user_relationships','user_work_history'
              facebookConnectPlugin.login(['email','public_profile'], fbLoginSuccess, fbLoginError);
